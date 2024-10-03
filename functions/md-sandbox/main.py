@@ -41,4 +41,3 @@ def main(request):
     except Exception as e:
         print(f"Error creating table {table_id} in dataset {dataset_id}: {e}", 500)
     return {'statusCode':200}
-Í
